@@ -129,10 +129,9 @@ var Room = {
 			type: 'building',
 			cost: function() {
 				return {
-					'wood': 1500,
-					'iron': 100,
-					'coal': 100
-				};
+					'wood': 1,
+					
+					};
 			}
 		},
 		'armoury': {
@@ -419,9 +418,9 @@ var Room = {
 			maximum: 1,
 			cost: function() {
 				return { 
-					fur: 400, 
-					scales: 20, 
-					teeth: 10 
+					fur: 4, 
+					scales: 2, 
+					teeth: 1 
 				};
 			}
 		}
